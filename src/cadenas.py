@@ -40,5 +40,7 @@ def estiliza_mensaje(texto:str, alterna_may_min: bool = True, sustituye_espavios
             else:
                 c= c.lower()
             toca_mayusculas = not toca_mayusculas
-            
+
+    if c == " ":
+        
         res += c
